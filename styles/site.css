@@ -52,3 +52,20 @@
 .tt-suggestion p {
     margin: 0;
 }
+
+@media (max-width: 767px) {
+    .bs-docs-header {
+        margin-top: 211px;
+    }
+
+    .twitter-typeahead,
+    .twitter-typeahead input {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .bs-docs-header {
+        margin-top: 51px;
+    }
+}
